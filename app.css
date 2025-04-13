@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* .path{
+    background-color: #fff8f3;
+    background-image: url(path.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+} */
