@@ -7,3 +7,67 @@
     background-repeat: no-repeat;
     background-position: bottom right;
 } */
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background: #fff;
+    margin: 0;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  .carousel-track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .slide {
+    width: 180px;
+    height: 120px;
+    background-color: gray;
+    border-radius: 20px;
+    background-image: url('placeholder-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+  }
+  
+  .slide-current {
+    width: 300px;
+    height: 250px;
+    opacity: 1;
+    
+  }
+  
+  .dots {
+    position: absolute;
+    margin-top: 300px;
+    
+    
+  }
+  
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .dot.active {
+    background: #333;
+  }
+  
